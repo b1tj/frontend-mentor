@@ -1,4 +1,4 @@
-import './app.css'
+import './App.css'
 import imgUrl from './assets/images/image-qr-code.png'
 
 export function App() {
