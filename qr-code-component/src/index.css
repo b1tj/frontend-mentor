@@ -1,4 +1,9 @@
 body {
   background-color: hsl(212, 45%, 89%);
   font-family: 'Outfit', sans-serif;
+  width: 95vw;
+  height: 95vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
