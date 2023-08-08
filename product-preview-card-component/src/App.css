@@ -1,0 +1,106 @@
+#root {
+  max-width: 1440px;
+  margin: 0 auto;
+  font-size: 14px;
+}
+
+.container {
+  display: flex;
+  width: 565px;
+  height: 420px;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.img {
+  width: 50%;
+  height: 100%;
+}
+
+.img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.description {
+  width: 50%;
+  height: 100%;
+  background-color: #fff;
+  padding: 29px;
+}
+
+.category {
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  font-family: 'Montserrat';
+}
+
+.name {
+  font-family: 'Fraunces';
+  margin-top: 15px;
+  padding-right: 20px;
+  color: hsl(212, 21%, 14%);
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 1;
+  text-align: start;
+}
+
+.category,
+.detail,
+.old-price {
+  color: hsl(228, 12%, 48%);
+}
+
+.detail {
+  font-family: 'Montserrat';
+  padding: 5px 0;
+  margin-top: 15px;
+}
+
+.prices {
+  margin-top: 15px;
+  display: flex;
+  place-items: center flex-start;
+  gap: 14px;
+}
+
+.new-price {
+  font-family: 'Fraunces';
+  color: #3d8168;
+  font-size: 30px;
+}
+
+.old-price {
+  color: hsl(228, 12%, 65%);
+  text-decoration: line-through;
+  font-weight: 600;
+}
+
+.btn {
+  font-family: 'Montserrat';
+  font-weight: 700;
+  margin-top: 20px;
+  color: hsla(0, 0%, 100%, 0.86);
+  width: 220px;
+  height: 44px;
+  background-color: #3d8168;
+  border-radius: 7px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 7px;
+  cursor: pointer;
+}
+
+.btn:hover,
+.btn:hover svg {
+  background-color: hsl(158, 36%, 25%);
+  color: hsla(0, 0%, 100%, 1);
+  opacity: 1;
+}
+
+.btn svg {
+  opacity: 0.8;
+}
