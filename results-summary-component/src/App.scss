@@ -98,40 +98,7 @@ $blue: hsla(234, 85%, 45%);
     display: flex;
     justify-content: space-between;
     align-items: center;
-    #content {
-      position: relative;
-    }
-    #content:before,
-    #content:after,
-    #content > :first-child:before,
-    #content > :first-child:after {
-      position: absolute;
-      content: ' ';
-      width: 80px;
-      height: 80px;
-      border-color: red; /* or whatever colour */
-      border-style: solid; /* or whatever style */
-    }
-    #content:before {
-      top: 0;
-      left: 0;
-      border-width: 1px 0 0 1px;
-    }
-    #content:after {
-      top: 0;
-      right: 0;
-      border-width: 1px 1px 0 0;
-    }
-    #content > :first-child:before {
-      bottom: 0;
-      right: 0;
-      border-width: 0 1px 1px 0;
-    }
-    #content > :first-child:after {
-      bottom: 0;
-      left: 0;
-      border-width: 0 0 1px 1px;
-    }
+
     &.red {
       background-color: rgba($red, 0.12);
       color: $red;
