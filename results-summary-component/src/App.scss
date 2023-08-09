@@ -192,3 +192,23 @@ $blue: hsla(234, 85%, 45%);
     }
   }
 }
+
+@media all and (max-width: 375px) {
+  #root {
+    display: block;
+  }
+  .container {
+    width: 100vw;
+    height: 100vh;
+    flex-direction: column;
+    box-shadow: none;
+    .result-container,
+    .summary-container {
+      width: 100%;
+    }
+
+    .result-container {
+      border-radius: 0 0 3em 3em;
+    }
+  }
+}
